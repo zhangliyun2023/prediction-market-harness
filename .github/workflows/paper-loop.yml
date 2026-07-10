@@ -1,0 +1,53 @@
+name: paper-loop
+
+# 云端 paper 循环:定时跑单轮,攒样本验证信号策略。
+# 只读公开数据(币安镜像 + Polymarket),绝不碰私钥、绝不真下单。
+# 云端账本独立(cloud/ledger.json),和本地 launchd 的账本互不干扰。
+
+on:
+  schedule:
+    # 每 15 分钟(GitHub 定时常有延迟/高峰丢跑,属正常)
+    - cron: "*/15 * * * *"
+  workflow_dispatch:        # 支持手动触发(测试用)
+
+# 允许把账本 commit 回仓
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-loop
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps (只需 requests)
+        run: pip install --quiet requests
+
+      - name: Run one paper cycle
+        env:
+          PAPER_LEDGER_PATH: cloud/ledger.json
+        run: |
+          mkdir -p cloud
+          python scripts/paper_loop.py once
+
+      - name: Commit ledger if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cloud/ledger.json
+          if git diff --cached --quiet; then
+            echo "账本无变化,不提交"
+          else
+            git commit -m "paper: cloud cycle [skip ci]"
+            git push
+          fi

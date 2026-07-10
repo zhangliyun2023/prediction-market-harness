@@ -1,0 +1,3 @@
+py-clob-client-v2
+python-dotenv
+requests

@@ -1,0 +1,17 @@
+.env
+.clob_api_creds.json
+__pycache__/
+*.pyc
+.venv/
+signals.jsonl
+# intel 采集数据永远在 ~/market-intel(paths.py),不在仓库;此行防手滑拷进来
+intel/**/*.jsonl
+# 运行时数据(可重新生成,不进仓)
+paper_ledger.json
+journal.json
+trade_notes.json
+*.log
+market-intel/
+
+# 参考项目(别人的仓库,只读参考,不进本仓)
+reference_projects/
