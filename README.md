@@ -112,6 +112,13 @@ even reach the capacity check). Single-source P2 is hard-rejected in code.
 - **Secrets hygiene**: keys in `.env` (0600, gitignored), API creds cached
   locally, secret-pattern scan before the initial publish.
 
+## Ready-to-use tool
+
+A standalone, config-and-run monitor bot built on this harness —
+watch any Polymarket market, alert on price thresholds (Slack/Discord/Telegram),
+no keys, never trades:
+**https://github.com/zhangliyun2023/polymarket-market-monitor**
+
 ## Stack
 
 Python 3.12 · `py-clob-client-v2` (official Polymarket V2 SDK) · Binance
