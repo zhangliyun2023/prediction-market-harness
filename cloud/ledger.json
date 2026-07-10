@@ -1,3 +1,16 @@
 {
-  "positions": []
+  "positions": [
+    {
+      "conditionId": "0x7d427ddb413ca92722f24cc28ed53a3eb6100e3c309405cd4e44165bb0acfe00",
+      "strike": 64000.0,
+      "question": "Will the price of Bitcoin be above $64,000 on July 10?",
+      "side": "YES",
+      "entry_price": 0.775,
+      "shares": 12.9032,
+      "stake": 10.0,
+      "placed_at": "2026-07-10T10:52:50.587331+00:00",
+      "settle_ts": 1783699200.0001853,
+      "status": "open"
+    }
+  ]
 }
