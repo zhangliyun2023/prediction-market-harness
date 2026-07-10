@@ -1,12 +1,19 @@
-# Polymarket Quant Agent
+# Prediction Market Harness
+
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![Status](https://img.shields.io/badge/status-research-orange)
+![LLM in number path](https://img.shields.io/badge/LLM_in_number_path-never-red)
 
 > Autonomous prediction-market research & trading harness — built with an
 > agent-engineering discipline: **the LLM never touches the truth path.**
 
-一个 Polymarket 预测市场的量化研究/交易 agent。核心设计哲学:概率、价格、
-风控全部走确定性代码,LLM 只负责编排和非数值决策;每个策略上线前必须过
-回测证伪,每笔真实下单必须过多层风控闸门。**这是一个研究框架,不是印钞机
-——它最自豪的一次输出,是用自己的回测筛子枪毙了自己的第一个策略。**
+A quantitative research/trading agent for Polymarket. Design philosophy:
+probabilities, prices and risk limits live in deterministic code — the LLM
+orchestrates, it never prices. Every strategy must survive a
+falsification-first backtest before it sees a dollar, and every real order
+passes through layered risk gates. **This is a research framework, not a
+money printer — its proudest output so far is killing its own first
+strategy with its own backtest sieve.**
 
 ---
 
