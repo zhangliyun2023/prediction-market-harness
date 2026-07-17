@@ -227,6 +227,18 @@
       "placed_at": "2026-07-17T06:37:53.983933+00:00",
       "settle_ts": 1784304000.000349,
       "status": "open"
+    },
+    {
+      "conditionId": "0x9852b69a3a641b38e72d3c1f667fdece249c9c12a5d1909ef5012f61910da404",
+      "strike": 64000.0,
+      "question": "Will the price of Bitcoin be above $64,000 on July 17?",
+      "side": "NO",
+      "entry_price": 0.9155,
+      "shares": 10.923,
+      "stake": 10.0,
+      "placed_at": "2026-07-17T10:53:45.164776+00:00",
+      "settle_ts": 1784304000.000192,
+      "status": "open"
     }
   ]
 }
