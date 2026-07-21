@@ -298,7 +298,13 @@
       "stake": 10.0,
       "placed_at": "2026-07-21T04:32:09.029304+00:00",
       "settle_ts": 1784649600.0003834,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 66667.22,
+      "winning_side": "YES",
+      "won": false,
+      "payout": 0.0,
+      "pnl": -10.0,
+      "settled_at": "2026-07-21T16:01:39.177052+00:00"
     },
     {
       "conditionId": "0x1cd969df6c58ec03ac7ec18ef3651b8f8c0462e9309d9d1a43dc4394188a2ec6",
@@ -310,7 +316,13 @@
       "stake": 10.0,
       "placed_at": "2026-07-21T12:00:21.989478+00:00",
       "settle_ts": 1784649600.0002868,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 66667.22,
+      "winning_side": "YES",
+      "won": true,
+      "payout": 13.7931,
+      "pnl": 3.7931,
+      "settled_at": "2026-07-21T16:01:39.177070+00:00"
     }
   ]
 }
