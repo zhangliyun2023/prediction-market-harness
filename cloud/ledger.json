@@ -593,6 +593,18 @@
       "payout": 20000.0,
       "pnl": 19990.0,
       "settled_at": "2026-07-29T18:07:00.283376+00:00"
+    },
+    {
+      "conditionId": "0x706b9bcba6eaa4e89e7751693cdd92f3a01ee2dfba3ff2d08745fc40f5a3b60e",
+      "strike": 64000.0,
+      "question": "Will the price of Bitcoin be above $64,000 on July 30?",
+      "side": "YES",
+      "entry_price": 0.355,
+      "shares": 28.169,
+      "stake": 10.0,
+      "placed_at": "2026-07-30T01:02:52.007665+00:00",
+      "settle_ts": 1785427200.0004792,
+      "status": "open"
     }
   ]
 }
