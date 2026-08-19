@@ -917,6 +917,18 @@
       "payout": 16.5289,
       "pnl": 6.5289,
       "settled_at": "2026-08-18T16:02:32.542333+00:00"
+    },
+    {
+      "conditionId": "0x1a11049b8618182739af71251dbdbe36edd2870f75f2318e604df3b9b77b7081",
+      "strike": 64000.0,
+      "question": "Will the price of Bitcoin be above $64,000 on August 19?",
+      "side": "YES",
+      "entry_price": 0.765,
+      "shares": 13.0719,
+      "stake": 10.0,
+      "placed_at": "2026-08-19T04:51:55.868208+00:00",
+      "settle_ts": 1787155200.0004978,
+      "status": "open"
     }
   ]
 }
