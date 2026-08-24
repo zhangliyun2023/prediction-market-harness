@@ -1054,7 +1054,13 @@
       "stake": 10.0,
       "placed_at": "2026-08-24T03:38:39.176073+00:00",
       "settle_ts": 1787587200.0004697,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 79257.59,
+      "winning_side": "YES",
+      "won": true,
+      "payout": 12.987,
+      "pnl": 2.987,
+      "settled_at": "2026-08-24T16:03:41.176682+00:00"
     },
     {
       "conditionId": "0x047812c1723c50be50815df243354e929145ac191cb3c80bb5617b08521cabc8",
@@ -1066,7 +1072,13 @@
       "stake": 10.0,
       "placed_at": "2026-08-24T05:20:35.679523+00:00",
       "settle_ts": 1787587200.0006,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 79257.59,
+      "winning_side": "YES",
+      "won": false,
+      "payout": 0.0,
+      "pnl": -10.0,
+      "settled_at": "2026-08-24T16:03:41.176700+00:00"
     },
     {
       "conditionId": "0x6d9199d1b691da5854dc08782ce0f94cb98b680c46514837511aabc24c14433c",
@@ -1078,7 +1090,13 @@
       "stake": 10.0,
       "placed_at": "2026-08-24T07:20:07.018816+00:00",
       "settle_ts": 1787587200.0005589,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 79257.59,
+      "winning_side": "NO",
+      "won": true,
+      "payout": 10.7009,
+      "pnl": 0.7009,
+      "settled_at": "2026-08-24T16:03:41.176707+00:00"
     },
     {
       "conditionId": "0x047812c1723c50be50815df243354e929145ac191cb3c80bb5617b08521cabc8",
@@ -1090,7 +1108,13 @@
       "stake": 10.0,
       "placed_at": "2026-08-24T12:51:17.271663+00:00",
       "settle_ts": 1787587200.0005763,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 79257.59,
+      "winning_side": "YES",
+      "won": true,
+      "payout": 12.7389,
+      "pnl": 2.7389,
+      "settled_at": "2026-08-24T16:03:41.176711+00:00"
     },
     {
       "conditionId": "0x6d9199d1b691da5854dc08782ce0f94cb98b680c46514837511aabc24c14433c",
@@ -1102,7 +1126,13 @@
       "stake": 10.0,
       "placed_at": "2026-08-24T15:22:17.213262+00:00",
       "settle_ts": 1787587200.0005748,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 79257.59,
+      "winning_side": "NO",
+      "won": false,
+      "payout": 0.0,
+      "pnl": -10.0,
+      "settled_at": "2026-08-24T16:03:41.176715+00:00"
     }
   ]
 }
