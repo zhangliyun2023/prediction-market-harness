@@ -1169,6 +1169,18 @@
       "placed_at": "2026-08-25T07:31:16.458765+00:00",
       "settle_ts": 1787673600.000688,
       "status": "open"
+    },
+    {
+      "conditionId": "0x4d176189417192863e94148bc880feb3f1ee655e66e2892dd09a8b3a985d7aa5",
+      "strike": 78000.0,
+      "question": "Will the price of Bitcoin be above $78,000 on August 25?",
+      "side": "YES",
+      "entry_price": 0.775,
+      "shares": 12.9032,
+      "stake": 10.0,
+      "placed_at": "2026-08-25T13:27:40.327654+00:00",
+      "settle_ts": 1787673600.0005758,
+      "status": "open"
     }
   ]
 }
