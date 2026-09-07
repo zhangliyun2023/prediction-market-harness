@@ -1540,7 +1540,13 @@
       "stake": 10.0,
       "placed_at": "2026-09-07T05:15:12.670160+00:00",
       "settle_ts": 1788796800.0006354,
-      "status": "open"
+      "status": "settled",
+      "settle_spot": 78916.77,
+      "winning_side": "NO",
+      "won": false,
+      "payout": 0.0,
+      "pnl": -10.0,
+      "settled_at": "2026-09-07T16:03:51.664458+00:00"
     }
   ]
 }
