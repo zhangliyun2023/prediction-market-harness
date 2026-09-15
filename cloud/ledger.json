@@ -1739,6 +1739,18 @@
       "placed_at": "2026-09-15T05:51:45.228638+00:00",
       "settle_ts": 1789488000.000711,
       "status": "open"
+    },
+    {
+      "conditionId": "0x0b389f5a5c257f03f742e65022f79730136b92df031816c1e352f3ce810313e7",
+      "strike": 78000.0,
+      "question": "Will the price of Bitcoin be above $78,000 on September 15?",
+      "side": "NO",
+      "entry_price": 0.845,
+      "shares": 11.8343,
+      "stake": 10.0,
+      "placed_at": "2026-09-15T11:09:58.651230+00:00",
+      "settle_ts": 1789488000.000686,
+      "status": "open"
     }
   ]
 }
