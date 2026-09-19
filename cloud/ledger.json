@@ -1817,6 +1817,30 @@
       "payout": 23.0681,
       "pnl": 13.0681,
       "settled_at": "2026-09-18T17:04:34.651496+00:00"
+    },
+    {
+      "conditionId": "0x470113c5aa3184b51e62e3ae513cdc0209f5e44972755520445119326c7daf49",
+      "strike": 80000.0,
+      "question": "Will the price of Bitcoin be above $80,000 on September 19?",
+      "side": "NO",
+      "entry_price": 0.0305,
+      "shares": 327.8689,
+      "stake": 10.0,
+      "placed_at": "2026-09-19T03:19:13.931369+00:00",
+      "settle_ts": 1789833600.0007079,
+      "status": "open"
+    },
+    {
+      "conditionId": "0xd90de6f72b88595bc0bb477565b8179f46d515b3383004a86c370717a5fa4f51",
+      "strike": 82000.0,
+      "question": "Will the price of Bitcoin be above $82,000 on September 19?",
+      "side": "YES",
+      "entry_price": 0.1575,
+      "shares": 63.4921,
+      "stake": 10.0,
+      "placed_at": "2026-09-19T03:19:13.931393+00:00",
+      "settle_ts": 1789833600.0007079,
+      "status": "open"
     }
   ]
 }
