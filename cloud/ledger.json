@@ -2087,6 +2087,30 @@
       "payout": 0.0,
       "pnl": -10.0,
       "settled_at": "2026-10-02T18:59:14.284753+00:00"
+    },
+    {
+      "conditionId": "0x80d5ab1e10979897e370fc8a21df6cdefc88c39a3f8908be9500742e8237b255",
+      "strike": 84000.0,
+      "question": "Will the price of Bitcoin be above $84,000 on October 3?",
+      "side": "NO",
+      "entry_price": 0.0975,
+      "shares": 102.5641,
+      "stake": 10.0,
+      "placed_at": "2026-10-03T01:44:19.512169+00:00",
+      "settle_ts": 1791043200.0005765,
+      "status": "open"
+    },
+    {
+      "conditionId": "0xee3f27bb91c0ea468f8fe08c3ff7964e5d552425d892d0767a2d0fa3ab6a369e",
+      "strike": 86000.0,
+      "question": "Will the price of Bitcoin be above $86,000 on October 3?",
+      "side": "YES",
+      "entry_price": 0.0285,
+      "shares": 350.8772,
+      "stake": 10.0,
+      "placed_at": "2026-10-03T01:44:19.512185+00:00",
+      "settle_ts": 1791043200.0005765,
+      "status": "open"
     }
   ]
 }
