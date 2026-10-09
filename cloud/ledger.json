@@ -2243,6 +2243,30 @@
       "placed_at": "2026-10-09T00:59:50.089065+00:00",
       "settle_ts": 1791561600.0008688,
       "status": "open"
+    },
+    {
+      "conditionId": "0x08b6729d93e02271d199fb7d5229b91ded8a8fadbbba2ab7b083577e1cbdc7dd",
+      "strike": 84000.0,
+      "question": "Will the price of Bitcoin be above $84,000 on October 9?",
+      "side": "NO",
+      "entry_price": 0.9085,
+      "shares": 11.0072,
+      "stake": 10.0,
+      "placed_at": "2026-10-09T07:18:28.014569+00:00",
+      "settle_ts": 1791561600.0008194,
+      "status": "open"
+    },
+    {
+      "conditionId": "0xddb22a71026d527b4764c7c234d5c705f073b62ea246f0a61e66364d9d8af288",
+      "strike": 82000.0,
+      "question": "Will the price of Bitcoin be above $82,000 on October 9?",
+      "side": "YES",
+      "entry_price": 0.745,
+      "shares": 13.4228,
+      "stake": 10.0,
+      "placed_at": "2026-10-09T07:18:28.014585+00:00",
+      "settle_ts": 1791561600.0008194,
+      "status": "open"
     }
   ]
 }
