@@ -2429,6 +2429,18 @@
       "payout": 0.0,
       "pnl": -10.0,
       "settled_at": "2026-10-16T18:22:26.794182+00:00"
+    },
+    {
+      "conditionId": "0xab128516152ad12c794180b4ca8bf66dea275511416fb9deb37eaa202330b993",
+      "strike": 82000.0,
+      "question": "Will the price of Bitcoin be above $82,000 on October 17?",
+      "side": "YES",
+      "entry_price": 0.125,
+      "shares": 80.0,
+      "stake": 10.0,
+      "placed_at": "2026-10-17T03:09:30.729675+00:00",
+      "settle_ts": 1792252800.00084,
+      "status": "open"
     }
   ]
 }
