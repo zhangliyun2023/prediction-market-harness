@@ -2513,6 +2513,18 @@
       "placed_at": "2026-10-21T04:46:13.308299+00:00",
       "settle_ts": 1792598400.000495,
       "status": "open"
+    },
+    {
+      "conditionId": "0xf497dd2d2656d4551d37c94ce78e8be194f55f0109e1bf158d227eca0e6bef69",
+      "strike": 84000.0,
+      "question": "Will the price of Bitcoin be above $84,000 on October 21?",
+      "side": "YES",
+      "entry_price": 0.855,
+      "shares": 11.6959,
+      "stake": 10.0,
+      "placed_at": "2026-10-21T14:52:03.206536+00:00",
+      "settle_ts": 1792598400.0007339,
+      "status": "open"
     }
   ]
 }
