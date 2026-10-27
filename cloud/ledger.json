@@ -2639,6 +2639,18 @@
       "placed_at": "2026-10-27T06:16:45.873432+00:00",
       "settle_ts": 1793116800.000509,
       "status": "open"
+    },
+    {
+      "conditionId": "0xdfbc41cd55af88906ac091ce72e01d840f9ae7a70027fe9b1abe1459085aea81",
+      "strike": 80000.0,
+      "question": "Will the price of Bitcoin be above $80,000 on October 27?",
+      "side": "YES",
+      "entry_price": 0.66,
+      "shares": 15.1515,
+      "stake": 10.0,
+      "placed_at": "2026-10-27T12:33:17.177937+00:00",
+      "settle_ts": 1793116800.0005991,
+      "status": "open"
     }
   ]
 }
