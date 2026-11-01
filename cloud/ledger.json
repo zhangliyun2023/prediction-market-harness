@@ -2747,6 +2747,18 @@
       "placed_at": "2026-11-01T01:29:07.730529+00:00",
       "settle_ts": 1793552400.0005891,
       "status": "open"
+    },
+    {
+      "conditionId": "0x953eff97fa20d6686730c25c44c1fabe7de99722f6cf9c78752ae0c87be35021",
+      "strike": 78000.0,
+      "question": "Will the price of Bitcoin be above $78,000 on November 1?",
+      "side": "YES",
+      "entry_price": 0.568,
+      "shares": 17.6056,
+      "stake": 10.0,
+      "placed_at": "2026-11-01T15:07:17.126162+00:00",
+      "settle_ts": 1793552400.0007098,
+      "status": "open"
     }
   ]
 }
