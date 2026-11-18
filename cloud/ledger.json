@@ -3095,6 +3095,18 @@
       "payout": 10.8401,
       "pnl": 0.8401,
       "settled_at": "2026-11-17T17:53:48.049731+00:00"
+    },
+    {
+      "conditionId": "0x0b55d4be5e2771d70d9790ea59cf1d5ed8a4dedefcc68fe54c42ef1556c6c4b3",
+      "strike": 66000.0,
+      "question": "Will the price of Bitcoin be above $66,000 on November 18?",
+      "side": "YES",
+      "entry_price": 0.1475,
+      "shares": 67.7966,
+      "stake": 10.0,
+      "placed_at": "2026-11-18T00:34:35.225501+00:00",
+      "settle_ts": 1795021200.0006602,
+      "status": "open"
     }
   ]
 }
