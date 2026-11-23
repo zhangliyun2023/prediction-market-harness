@@ -3269,6 +3269,18 @@
       "placed_at": "2026-11-23T02:44:50.725953+00:00",
       "settle_ts": 1795453200.00106,
       "status": "open"
+    },
+    {
+      "conditionId": "0xded136aef891fcc3f35235a6b25cab156b36428086afa264ebbb80d6619c91f1",
+      "strike": 60000.0,
+      "question": "Will the price of Bitcoin be above $60,000 on November 23?",
+      "side": "YES",
+      "entry_price": 0.895,
+      "shares": 11.1732,
+      "stake": 10.0,
+      "placed_at": "2026-11-23T11:20:34.027216+00:00",
+      "settle_ts": 1795453200.0006347,
+      "status": "open"
     }
   ]
 }
